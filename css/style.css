@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.contenedor__principal {
+  font-family: "Courier New", "Courier", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: linear-gradient(to top right, rgb(8, 156, 206) 25%, #d8ec00 100%);
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.centrado__elementos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.edad {
+  font-size: 200px;
+  font-weight: 800;
+
+  height: 180px;
+}
+
+.anio {
+  font-size: 80px;
+  font-weight: 700;
+  text-shadow: 0 0 13px rgba(0, 0, 0, 0.1);
+}
+
+.texto {
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
